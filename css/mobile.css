@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color:gray;  
+    overflow: hidden;
+}
+.paragraph{
+    font-size:24px;
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow:1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: center;
+    padding-bottom:21px;
+    padding-left:21px;
+    padding-right:21px;
+    margin:0;
+}
+#picture{
+    height: 100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(https://dccoder.files.wordpress.com/2020/09/d0a8d-download.jpg);
+    background-size: cover;
+    position:relative;
+    font-family: 'Titillium Web', sans-serif;
+}
+#header{
+    position:absolute;
+    height:7vh;
+    width:100%;
+    background-color:rgba(10,10,10,0.8)
+}
+#logo{
+    padding-top: 1.125vh;
+    height:5.5vh;
+    padding-left: 5vw;
+    width:40vw;
+
+}
+#menu{
+    height: 4vh;
+    margin-top: 3.5vh;
+    float: right;
+    display:inline-block;
+    transform: translate(-65%,-50%);
+    z-index: 1;
+}
+#mobileNav{
+    height :100vh;
+    width: 50vw;
+    position: fixed;
+    top:0;
+    right:-50vw;
+    background-color:rgba(45, 0, 19, 0.75);
+    z-index: 2;
+}
+#mobileNav a{
+    display:block;
+    text-align:center;
+    height: 20vh;
+    line-height:20vh;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    color:#f5f5f5;
+    text-decoration: none;
+    Font-size: 3vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+#mobileNav a:hover{
+    background-color: rgba(0,0,75,.5)
+    
+}
+
+#mobileNavCover{
+    display:none;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 1;
+    position:fixed;
+    height:100vh;
+    width:100%;
+    top:0;
+    left:0;
+}
+#desktopNav{
+    display: none;
+}
+nav{
+    height: 7vh;
+    width: 9vh; /*important to be square in vh instead of vw*/
+    background-color: rgba(0,0,0,1);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#photocred, a{
+    color:white;
+}
+.facebook{
+    font-family: 'Titillium Web', sans-serif;
+}
+#merchthing{
+    margin-top:50%;
+    color:white;
+    text-align: center;
+    width:50vw;
+    height:50vh;
+    transform: translate(-50,-50);
+    position:relative;
+    font-size: 5vw;
+    display:none;
+    z-index: 2;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#gooseyboylogo{
+    display: none;
+}
+
